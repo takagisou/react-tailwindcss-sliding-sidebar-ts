@@ -10,3 +10,7 @@ git clone https://github.com/takagisou/react-tailwindcss-sliding-sidebar-ts
 cd react-tailwindcss-sliding-sidebar-ts
 yarn start
 ```
+
+# Demo
+
+https://react-tailwindcss-sliding-sidebar-ts.vercel.app/
