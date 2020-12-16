@@ -10,9 +10,6 @@ const FocusTrap: FC<FocusTrapProps> = ({isActive, children}) => {
     const bottomTabTrap = useRef<HTMLSpanElement>(null)
     const container = useRef<HTMLDivElement>(null)
 
-    const firstFocusableElement = useRef<HTMLButtonElement | null>(null)
-    const lastFocusableElement = useRef<HTMLButtonElement | null>(null)
-
     useEffect(() => {
 
         // サイドメニューの表示・非表示が切り替えられる画面の大きさの時にサイドメニューが表示されている場合、
